@@ -243,3 +243,35 @@
   color: #727272;
   margin-top: 25px;
 }
+
+.box-title-section {
+  margin-top: 70px;
+  margin-left: 200px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box-section {
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  padding: 18px;
+  text-align: center;
+  margin-left: -70px;
+}
+
+.box-section img {
+  width: 47.39px;
+  height: 45.22px;
+}
+
+.box-title {
+  font-weight: 600;
+  font-size: 45px;
+  color: #424242;
+}
+
+.box-sub-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #727272;
+}
