@@ -2,7 +2,9 @@
   margin: 0;
   font-family: "Open Sans", sans-serif;
 }
-
+img {
+  max-width: 100%;
+}
 /* navigation and header section */
 
 .header-section {
@@ -28,6 +30,7 @@
   gap: 40px;
   margin-top: 50px;
   margin-left: 150px;
+  flex-wrap: wrap;
 }
 
 .sub-nav-bar li {
@@ -181,15 +184,15 @@
   color: #727272;
 }
 .service-image-section {
-  margin-right: 150px;
+  margin-right: 200px;
   position: relative;
 }
 .service-image {
   position: relative;
 }
 .service-image img {
-  width: 670px;
-  height: 950px;
+  width: 1350px;
+  height: 850px;
 }
 
 .button-section {
@@ -308,6 +311,7 @@
   margin-left: 200px;
   margin-top: 50px;
   font-size: 30px;
+  flex-wrap: wrap;
 }
 .skill img {
   width: 160px;
@@ -333,4 +337,26 @@
   font-weight: 400;
   font-size: 20px;
   color: #424242;
+}
+
+/*-----------------
+    Mobile Device
+ ------------------- */
+
+@media only screen and (max-width: 667px) {
+  .container {
+    width: 100%;
+  }
+  .sub-nav-bar ul {
+    margin-left: 0;
+    flex-direction: column;
+  }
+  .skill-container {
+    margin-left: 100px;
+  }
+
+  .nav-section,
+  l {
+    flex-direction: column;
+  }
 }
