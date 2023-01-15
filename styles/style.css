@@ -257,6 +257,11 @@
   padding: 18px;
   text-align: center;
   margin-left: -70px;
+  transition: width 1s, height 1s, transform 1s;
+}
+
+.box-section:hover {
+  transform: rotate(180deg);
 }
 
 .box-section img {
