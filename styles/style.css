@@ -275,3 +275,37 @@
   font-size: 20px;
   color: #727272;
 }
+
+/*-------------------
+    Our Sponspors
+  ----------------- */
+
+.skill-sponspors {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+
+.skill-sub-sponspors {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+
+.skill-container {
+  display: flex;
+  gap: 90px;
+  margin-left: 200px;
+  margin-top: 50px;
+  font-size: 30px;
+}
+.skill img {
+  width: 160px;
+  height: 50px;
+  color: gray;
+}
